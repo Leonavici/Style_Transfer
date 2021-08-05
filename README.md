@@ -11,4 +11,4 @@ The style transfer is done by using a pretrained 19-layer VGG network that is ma
 | <img src="data/images/Smugis.jpg" height = "200" >  | <img src="data/images/Duel.jpg" height = "200" >  | <img src="data/images/Smugis_dvikova.jpg" height = "200" >  |
 | <img src="data/images/kaimas.jpg" height = "200" >  | <img src="data/images/Colorful_countryside.jpg" height = "200" >  | <img src="data/images/Kaimas_spalvingai.jpg" height = "200" >  |
 | <img src="data/images/Creation_of_Adam.jpg" height = "200" >  | <img src="data/images/Pilies-pasaka.jpg" height = "200" >  | <img src="data/images/Creation of adam by ciurlionis.jpg" height = "200" >  |
-| <img src="data/images/Daugiabutis.jpg" height = "200" >  | <img src="data/images/van-gogh2.jpg" height = "200" >  | <img src="data/images/Daugiabutis_vangogh.jpg" height = "200" >  |
+| <img src="data/images/Daugiabutis.jpg" height = "200" >  | <img src="data/images/van-gogh.jpg" height = "200" >  | <img src="data/images/Daugiabutis_vangogh2.jpg" height = "200" >  |

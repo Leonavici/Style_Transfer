@@ -8,7 +8,7 @@ The style transfer is done by using a pretrained 19-layer VGG network that is ma
 
 | Content image | Style image   | Result image  |
 | :-----------: | :-----------: | :-----------: |
-| <img src="images/Smugis.jpg" height = "200" >  | <img src="images/Duel.jpg" height = "200" >  | <img src="images/Smugis_dvikova.jpg" height = "200" >  |
-| <img src="images/kaimas.jpg" height = "200" >  | <img src="images/Colorful_countryside.jpg" height = "200" >  | <img src="images/Kaimas_spalvingai.jpg" height = "200" >  |
-| <img src="images/Creation_of_Adam.jpg" height = "200" >  | <img src="images/Pilies-pasaka.jpg" height = "200" >  | <img src="images/Creation of adam by ciurlionis.jpg" height = "200" >  |
-| <img src="images/Daugiabutis.jpg" height = "200" >  | <img src="images/van-gogh.jpg" height = "200" >  | <img src="images/Daugiabutis_vangogh.jpg" height = "200" >  |
+| <img src="data/images/Smugis.jpg" height = "200" >  | <img src="data/images/Duel.jpg" height = "200" >  | <img src="data/images/Smugis_dvikova.jpg" height = "200" >  |
+| <img src="data/images/kaimas.jpg" height = "200" >  | <img src="data/images/Colorful_countryside.jpg" height = "200" >  | <img src="data/images/Kaimas_spalvingai.jpg" height = "200" >  |
+| <img src="data/images/Creation_of_Adam.jpg" height = "200" >  | <img src="data/images/Pilies-pasaka.jpg" height = "200" >  | <img src="data/images/Creation of adam by ciurlionis.jpg" height = "200" >  |
+| <img src="data/images/Daugiabutis.jpg" height = "200" >  | <img src="data/images/van-gogh2.jpg" height = "200" >  | <img src="data/images/Daugiabutis_vangogh.jpg" height = "200" >  |

@@ -30,6 +30,9 @@ class styleTransfer():
                          'conv5_1': 0.2}
 
         self.steps = 2000  # for how many iterations to update the image
+        
+        # for displaying the target image, intermittently
+        self.showEvery = 400
 
 
 
@@ -89,9 +92,6 @@ class styleTransfer():
 
         self.contentWeight = 1  # alpha
         self.styleWeight = 1e6  # beta
-
-        # for displaying the target image, intermittently
-        self.showEvery = 400
 
         # iteration hyperparameters
         optimizer = optim.Adam([self.target], lr=0.003)

@@ -131,7 +131,18 @@ class styleTransfer():
             # display intermediate images and print the loss
             if ii % self.showEvery == 0:
                 print('Total loss: ', totalLoss.item())
+                print('Iteration:   %i/%i' % (ii, self.steps))
                 plt.imshow(self.ImConvert(self.target))
                 plt.show()
 
         return self.target
+
+    def changePooling(self, averagePool):
+        if averagePool:
+            for i, layer in self.vgg.named_children():
+                if isinstance(layer, torch.nn.MaxPool2d):
+                    self.vgg[int(i)] = torch.nn.AvgPool2d(kernel_size=2, stride=2, padding=0)
+        else:
+            for i, layer in self.vgg.named_children():
+                if isinstance(layer, torch.nn.AvgPool2d):
+                    self.vgg[int(i)] = torch.nn.MaxPool2d(kernel_size=2, stride=2, padding=0)
